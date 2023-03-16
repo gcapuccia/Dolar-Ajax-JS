@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(182, 166, 146);
+}
+
+.titulo{
+    text-align: center;
+    color: green;
+    
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+th{
+    background-color: bisque;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+body {
+    background: #eee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3,
+h2,
+h5 {
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.formulario {
+    text-align: center;
+}
