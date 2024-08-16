@@ -22,7 +22,7 @@ function ajax(config) {
 
 ////////////////////Aplicacion Dolar///////////////////////
 //URL api rest
-const url = 'https://www.dolarsi.com/api/api.php?type=valoresprincipales';
+const url = 'https://dolarapi.com/v1/dolares';
 
 function dameDolar() {
     
@@ -36,7 +36,7 @@ function dameDolar() {
                 var dolarNombre = dolar[index].casa.nombre;
                 var dolarCompra = dolar[index].casa.compra;
                 var dolarVenta = dolar[index].casa.venta;
-                var dolarVariacion = dolar[index].casa.variacion;
+                var dolarVariacion = dolar[index].casa.fechaActualizacion;
 
                 //console.log(dolarNombre);
                 //console.log(dolarCompra);
